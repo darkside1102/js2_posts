@@ -1,0 +1,38 @@
+{
+  "name": "my_project",
+  "title": "jQuery UI",
+  "description": "A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
+  "version": "1.12.1",
+  "homepage": "http://jqueryui.com",
+  "author": "jQuery Foundation and other contributors (https://github.com/jquery/jquery-ui/blob/1.12.1/AUTHORS.txt)",
+  "main": "ui/widget.js",
+  "maintainers": [
+    "Scott González <scott.gonzalez@gmail.com> (http://scottgonzalez.com)",
+    "Jörn Zaefferer <joern.zaefferer@gmail.com> (http://bassistance.de)",
+    "Mike Sherov <mike.sherov@gmail.com> (http://mike.sherov.com)",
+    "TJ VanToll <tj.vantoll@gmail.com> (http://tjvantoll.com)",
+    "Felix Nagel <info@felixnagel.com> (http://www.felixnagel.com)",
+    "Alex Schmitz <arschmitz@gmail.com> (https://github.com/arschmitz)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jquery/jquery-ui.git"
+  },
+  "bugs": {
+    "url": "https://bugs.jqueryui.com/"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglify-es": "^1.0.4",
+    "node-static": "^0.7.11"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
